@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <jianpan.com.mybutton.view.RippleDiffuse
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:btn_img_res="@drawable/rd"
+        app:ripple_img_res="@drawable/rd">
+    </jianpan.com.mybutton.view.RippleDiffuse>
+
+    <jianpan.com.mybutton.view.RippleDiffuse
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:btn_img_res="@mipmap/ic_launcher"
+        app:ripple_img_res="@mipmap/ic_launcher">
+    </jianpan.com.mybutton.view.RippleDiffuse>
+</LinearLayout>
